@@ -1,0 +1,58 @@
+body {
+  background-color: #FFB300;
+  font-family: 'Roboto Mono', monospace;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 30px;
+  color: #fff;
+  font-size: 30px;
+}
+
+/* Hide up & down arrows from input */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input {
+  border:0;
+  width: 300px;
+  border: 4px solid #FFEE58;
+  border-radius: 15px;
+  text-align: center;
+  background: none;
+  outline: none;
+  font-size: 30px;
+  padding: 10px;
+  transition: 0.25s;
+}
+
+input:hover {
+  width: 500px;
+  border-color: #F57F17;
+}
+
+.btn {
+  margin: auto;
+  width: 100px;
+  margin-top: 20px;
+  font-size: 20px;
+  border: 2px solid #FFEE58;
+  border-radius: 30px;
+  padding: 10px;
+  outline: none;
+}
+
+.btn:hover {
+  background-color: #F57F17;
+  border: 2px solid #F57F17;
+  cursor: pointer;
+}
+

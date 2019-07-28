@@ -1,18 +1,24 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
   <head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="style.css">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="assets/css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap" rel="stylesheet">
     <title>Weryfikator pesel</title>
   </head>
+
   <body>
     <div class="container">
-      <h1>Weryfikator PESEL</h1>
-      <input type="text" name="pesel" placeholder="PESEL">
-      <div class="btn">
-        Sprawdź
-      </div>
+      <form>
+        <h1>Weryfikator PESEL</h1>
+        <input type="number" name="pesel" placeholder="PESEL" required>
+        <br/>
+        <button type="submit" class="btn">
+          Sprawdź
+        </button>
+      </form>
     </div>
+    <script async src="assets/js/main.js"></script>
   </body>
+
 </html>
