@@ -15,16 +15,33 @@ body {
 .container input[type="text"] {
   border:0;
   width: 300px;
-  border: 4px solid #FFEE58;
-  border-radius: 15px;
+  border: 2px solid #FFEE58;
+  border-radius: 30px;
   text-align: center;
   background: none;
   outline: none;
   font-size: 30px;
   padding: 10px;
   transition: 0.25s;
+  color: #fff;
+
 }
 .container input[type="text"]:hover {
   width: 500px;
   border-color: #F57F17;
+}
+.btn {
+  margin: auto;
+  width: 100px;
+  margin-top: 20px;
+  font-size: 20px;
+  border: 2px solid #FFEE58;
+  border-radius: 30px;
+  padding: 10px;
+}
+
+.btn:hover {
+  background-color: #F57F17;
+  border: 2px solid #F57F17;
+  cursor: pointer;
 }
