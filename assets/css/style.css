@@ -1,18 +1,27 @@
 body {
-  background-color: #fff;
+  background-color: #FFB300;
   font-family: 'Roboto Mono', monospace;
 }
+
 .container {
-  width: 600px;
-  height: 800px;
-  margin: auto;
-  background-color: #FFB300;
-  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   text-align: center;
+  padding: 30px;
   color: #fff;
   font-size: 30px;
 }
-.container input[type="text"] {
+
+/* Hide up & down arrows from input */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input {
   border:0;
   width: 300px;
   border: 4px solid #FFEE58;
@@ -24,7 +33,8 @@ body {
   padding: 10px;
   transition: 0.25s;
 }
-.container input[type="text"]:hover {
+
+input:hover {
   width: 500px;
   border-color: #F57F17;
 }
