@@ -12,6 +12,6 @@
     "electron": "^6.0.0"
   },
   "dependencies": {
-    "pesel-utils": "^1.0.0"
+    "pesel-utils": "^1.0.1"
   }
 }
