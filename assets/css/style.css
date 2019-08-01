@@ -52,7 +52,6 @@ input:hover {
   background-color: #FFB300;
   width: 150px;
   margin-top: 20px;
-  margin-left: -16px;
   font-size: 20px;
   color: inherit;
   border: 2px solid #FFEE58;
@@ -74,7 +73,8 @@ input:hover {
   background-size: 100%;
   transition: background 0s;
 }
-.info{
+
+.info {
   font-size: 20px;
   transition: 0.5s;
 }
