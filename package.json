@@ -9,7 +9,7 @@
   "author": "milan",
   "license": "MIT",
   "devDependencies": {
-    "electron": "^6.0.0"
+    "electron": "^9.1.0"
   },
   "dependencies": {
     "pesel-utils": "^1.0.1"
